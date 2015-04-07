@@ -18287,13 +18287,15 @@ capacitores e retificadores</text>
 <pinref part="IC5" gate="G$1" pin="RC2/CCP1"/>
 <wire x1="-50.8" y1="35.56" x2="-66.04" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="35.56" x2="-66.04" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="7.62" x2="22.86" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="7.62" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="7.62" x2="20.32" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="35.56" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="35.56" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="35.56" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
-<junction x="22.86" y="35.56"/>
-<label x="22.86" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="20.32" y1="27.94" x2="20.32" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
+<junction x="20.32" y="27.94"/>
+<label x="20.32" y="27.94" size="0.8128" layer="95" ratio="3" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CCP2" class="0">
@@ -18301,13 +18303,15 @@ capacitores e retificadores</text>
 <pinref part="IC5" gate="G$1" pin="RC1/T1OSI"/>
 <wire x1="-50.8" y1="38.1" x2="-68.58" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="38.1" x2="-68.58" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="2.54" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="15.24" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="15.24" x2="25.4" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="15.24" x2="27.94" y2="7.62" width="0.1524" layer="91"/>
-<junction x="27.94" y="15.24"/>
-<wire x1="-68.58" y1="2.54" x2="27.94" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="2.54" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
-<label x="27.94" y="2.54" size="1.778" layer="95" xref="yes"/>
+<wire x1="25.4" y1="7.62" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="7.62" x2="25.4" y2="7.62" width="0.1524" layer="91"/>
+<junction x="25.4" y="7.62"/>
+<label x="25.4" y="2.54" size="0.8128" layer="95" ratio="3" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
