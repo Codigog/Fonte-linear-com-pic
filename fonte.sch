@@ -17804,6 +17804,15 @@ capacitores e retificadores</text>
 <text x="-218.44" y="162.56" size="1.778" layer="97">Proteção de sobretensão, caso alguma coisa de
  errado antes do FET, ele pode cortar a
  alimentação da parte logica da fonte</text>
+<text x="71.12" y="147.32" size="1.4224" layer="97" ratio="3">1 - Alimentação do NTC
+2 - Retorno do NTC
+3 - +12v alimentação do ventilador
+4 - GND para o ventilador
+Label cooler - Sinal para acionar o cooler.</text>
+<text x="109.22" y="81.28" size="1.4224" layer="97" ratio="3">Não é pra ser o 2n3055, mas como
+ eu não encontro o package do 
+2sc5200, vou deixar esse transistor
+ mesmo por enquanto.</text>
 </plain>
 <instances>
 <instance part="LCD" gate="G$1" x="-45.72" y="149.86" smashed="yes" rot="R90">
